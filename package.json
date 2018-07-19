@@ -1,10 +1,10 @@
 {
-  "name": "react-force-graph",
+  "name": "react-force-graph-2d-only",
   "version": "1.8.2",
   "description": "React component for 2D, 3D and VR force directed graphs",
-  "unpkg": "dist/react-force-graph.min.js",
-  "main": "dist/react-force-graph.common.js",
-  "module": "dist/react-force-graph.module.js",
+  "unpkg": "dist/react-force-graph-2d-only.min.js",
+  "main": "dist/react-force-graph-2d-only.common.js",
+  "module": "dist/react-force-graph-2d-only.module.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vasturiano/react-force-graph.git"
@@ -31,7 +31,7 @@
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "watch": "rollup -c -w",
-    "minify": "uglifyjs dist/react-force-graph.js -o dist/react-force-graph.min.js -c -m --comments '/Version/'",
+    "minify": "uglifyjs dist/react-force-graph-2d-only.js -o dist/react-force-graph-2d-only.min.js -c -m --comments '/Version/'",
     "build-module": "rollup -c rollup.config.module.js",
     "prepublish": "npm run build && npm run minify && npm run build-module"
   },
