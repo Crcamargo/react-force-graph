@@ -36,8 +36,6 @@
     "prepublish": "npm run build && npm run minify && npm run build-module"
   },
   "dependencies": {
-    "3d-force-graph": "^1.36.1",
-    "3d-force-graph-vr": "1.19.0",
     "force-graph": "^1.7.1",
     "kapsule": "^1.9.1",
     "prop-types": "^15.6.2",
